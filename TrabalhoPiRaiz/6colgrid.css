@@ -1,0 +1,440 @@
+body {
+  font-family:sans-serif,Arial;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0px 0px 0px 0px;
+  background-color: lightblue;
+  color: black;
+  width: 100%;
+}
+.marquee {
+
+   width: auto;
+line-height: 20px;
+ background-color:	#c0331f;
+ color: white;
+   white-space: nowrap;
+   overflow: hidden;
+   box-sizing: border-box;
+   border-bottom: 2px solid black;
+}
+.marquee p {
+   display: inline-block;
+   padding-left: 100%;
+   animation: marquee 15s linear infinite;
+}
+@keyframes marquee {
+   0%   { transform: translate(0, 0); }
+   100% { transform: translate(-100%, 0); }
+}
+.container{
+  width: 80%;
+  margin:auto;
+  overflow: hidden;
+}
+
+
+#atual{
+  background-color: red;
+  color:black;
+}
+header{
+
+  background:#ff9224;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-top: black 2px solid;
+  border-bottom: black 3px ridge ;
+
+}
+
+header a{
+  text-decoration: none;
+  color:black;
+  text-transform:uppercase;
+  font-size: 19px;
+  background-color: #fefbd8;
+  border-radius: 20px;
+  border: 2px solid black;
+  padding: 8px;
+}
+
+header ul{
+  margin: 0;
+  padding: 0;
+}
+header li{
+  float:left;
+  display:inline;
+  padding: 20px 20px 0 10px;
+}
+
+header #toptop{
+  float:left;
+
+}
+
+header #toptop h1{
+  margin: 0;
+}
+
+header nav {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+header a:hover{
+  background-color: blue;
+  color:black;
+  font-weight: bold;
+}
+#boxes {
+  padding-left: 10%;
+  width: 80%;
+  padding-bottom: 10rem;
+
+
+}
+
+
+#boxes .box{
+  border-radius: 15px;
+  border:solid 2px orange;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  box-shadow: 0 4px 2px -2px orange;
+  background-color: darkgrey;
+  color: black;
+
+}
+#boxes h1{
+  border-top: solid 2px red;
+  border-bottom: solid 2px red;
+  text-shadow: 2px -2px black;
+  text-align: center;
+  font-size: 33px;
+  font-weight: bold;
+
+
+
+}
+
+
+#conteudo {
+  padding:15px;
+  color: blue;
+  background: lightblue;
+  border-bottom: 2px black;
+}
+#incentivar input[type="email"]{
+  padding: 4px;
+  height: 25px;
+  width: 100px;
+}
+#incentivar input[type="Password"]{
+  padding: 4px;
+  height: 25px;
+  width: 100px;
+}
+#boxes .vermais{
+  background-color: orange;
+  border-radius: 15px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  width: 100%;
+  height: 100px;
+
+}
+.pesquiza input[type="text"]{
+  padding: 4px;
+  height: 35px;
+  width: 75%;
+}
+.pesquiza input[type="password"]{
+  padding: 4px;
+  height: 35px;
+  width: 75%;
+}
+.pesquiza button{
+  height: 50px;
+  width: 50%;
+  margin-top: 2.5rem;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+
+}
+
+.pesquiza .fundo{
+    background-image: url("src/empresa.jpg");
+    background-position: center;
+}
+.pesquiza .fundozero{
+    background-image: url("src/emprego.jpg");
+    background-position: center;
+
+}
+.pesquiza form{
+
+  text-align: center;
+color:black;
+background:rgba(255,255,255,0.5);
+padding-bottom: 5rem;
+padding-top: 5rem;
+}
+.pesquiza h1{
+  margin: auto;
+  text-align: center;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  background-color: black;
+  color:white;
+  outline-color: black;
+}
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.butaoofertas{
+  height:30px;
+  background:blue;
+  border: none;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+.butao{
+  height: 50px;
+  background-color: blue;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  color: white;
+}
+#incentivar{
+padding-left: 15%;
+padding-right: 15%;
+border-top: 2px solid black;
+border-bottom: 2px solid black;
+}
+.uno{
+  float:left;
+}
+.dos{
+  float:right;
+}
+
+#incentivar h1{
+  padding-left: 20px;
+  padding-bottom: 1px;
+  border-bottom: 1px solid black;
+
+}
+#incentivar ul{
+  text-align: left;
+  font-size: 17px;
+  color:blue;
+  background-color: transparent;
+
+}
+#duascaixas h3{
+color: red;
+background-color: orange;
+}
+#duascaixas {
+  float: none;
+margin-top: 20px;
+margin-left: 10px;
+}
+#duascaixas .dicas{
+  float:left;
+  width: 40%;
+  border-left: 1px solid orange;
+  font-size: 16px;
+
+}
+#duascaixas .artigos{
+  float:right;
+  width: 40%;
+  border-left: 1px solid orange;
+  font-size: 16px;
+
+
+}
+#duascaixas img{
+  margin-right: auto;
+  width: 10%;
+  padding-left: 25px;
+  padding-right: 20px;
+}
+#boxes img{
+  border-radius: 15px;
+  width: 80%;
+background-size: cover;
+  margin: auto;
+
+}
+
+#boxes a{
+  font-size: 20px;
+  text-decoration-color: black;
+  font-weight: bold;
+}
+#box h3{
+  font-weight: bold;
+  font-size: 20px
+}
+.aboutold h1{
+
+ border-bottom: 2px solid black;
+ padding-bottom: 1rem;
+ background-color: white;
+ color:black;
+
+
+}
+#contacto {
+  padding-bottom: 2.5rem;
+  margin-top: 2.5rem;
+}
+.aboutold img{
+  width: 100%;
+  border: 2px solid black;
+}
+.boxcontacto{
+background-color: darkgrey;
+color:black;
+box-shadow: 0 4px 2px -2px gray;
+box-sizing: border-box;
+  padding: 2.5rem;
+
+}
+blockquote {
+    border:none;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    margin-bottom:-30px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote h3 {
+font-size:21px;
+}
+
+blockquote h3:before {
+content: open-quote;
+font-weight: bold;
+font-size:100px;
+color:black;
+background-color: inherit;
+}
+blockquote h3:after {
+content: close-quote;
+float:right;
+font-weight: bold;
+font-size:100px;
+color:black;
+padding-bottom: 5rem;
+background-color: inherit;
+
+}
+.boxcontacto button{
+  height: 50px;
+  width: 50%;
+  margin-top: 2.5rem;
+
+  color: black;
+  font-weight: bold;
+  background-color: white;
+
+}
+.oferta{
+  text-align: center;
+  background-color: grey;
+  border-radius: 15px;
+  color:black;
+  box-sizing: border-box;
+  border: 2px solid black;
+
+}
+.oferta h1{
+  padding: 2rem;
+  margin-top: 2px;
+  border-radius: 1px;
+  background-color: white;
+  color:black;
+
+}
+.oferta h2{
+  padding: 2rem;
+  margin-top: 2px;
+
+  background-color:lightgrey;
+  color:black;
+
+}
+.oferta p{
+  border-bottom: 20rem;
+  color:white;
+  background-color: inherit;
+  font-weight: bold;
+}
+.oferta .fundo{
+
+width: 100%;
+}
+.imagemtexto img{
+  border: 2px solid black;
+ border-radius: 4px;
+ padding: 5px;
+
+}
+footer{
+  position: relative;
+  bottom: 0;
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #e8491d;
+  text-align: center;
+
+}
+@media all and (min-width:1040px){
+.box{width: 30%;
+float:left;
+margin-left: 2rem;
+}
+.boxcontacto{
+  width: 100%;
+  margin-top: 6rem;
+}
+}
+@media screen and (max-width: 1000px) {
+    .aboutold {
+        display: none;
+    }
+    #slogan{
+        width: 5rem;}
+.imagemtexto img{
+  width: 80%; }
+
+
+}
