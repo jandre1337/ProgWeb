@@ -1,0 +1,134 @@
+.navbar{
+  min-height: 80px;
+  background-color: #24A0ED;
+  padding: 15px;
+  border: 1px solid white;
+  -webkit-text-stroke-width: 1px;
+ -webkit-text-stroke-color: white;
+ color:black;
+}
+
+
+.titu{
+  font-size: 50px;
+  text-align: center;
+  color: #036696;
+  padding: 2.5rem;
+  font-family:fantasy;
+  background-color: #24A0ED;
+  -webkit-text-stroke-width: 1px;
+ -webkit-text-stroke-color: white;
+
+ margin-bottom: 5rem;
+}
+
+.footer {
+  margin-top: 20rem;
+  margin-bottom: 0;
+  width: 100%;
+  padding:20px;
+  background-color: #214761;
+  color: #FFFFFF;
+
+
+}
+
+.footim{
+  width: 10%;
+  height: 10%;
+
+}
+.col-sm-4{
+
+    border-bottom: 2px solid white;
+
+}
+.borda{
+
+}
+.regula{
+  background-size:cover;
+  background-image: linear-gradient(to left top, rgba(247, 205, 197, 1),rgba(72, 139, 175, 1)),url(bg.png);
+  text-indent: 50px;
+  line-height: 3;
+  margin-bottom: 5%;
+
+}
+.BLU{
+  background-color: #add8e6;
+  padding-right: 2.5rem;
+  color: black;
+}
+.col-sm-5{
+  padding-right: 2rem;
+
+  border: 2px solid black;
+  margin-left: 5%;
+  margin-bottom: 2.5rem;
+}
+.nao{
+  padding-left: 10%;
+  margin-bottom: 10%;
+
+}
+.nao img{
+  margin-left: 5%;
+  border: 1px solid black;
+    border-radius: 4px;
+}
+.h3{
+  color: #8C8C8C;
+font-family: arial, sans-serif;
+font-size: 26px;
+font-weight: bold;
+margin-top: 0px;
+margin-bottom: 1px;
+background-color: inherit;
+
+
+}
+.fundo{
+  background-color: #add8e6;
+
+  border: 1px solid grey;
+  text-align: center;
+vertical-align: middle;
+color:black;
+}
+.border{
+  border:2px solid black;
+  border-radius: 8px;
+  width: 100%;
+  margin-bottom: 2.5%;
+}
+html body{
+  background-color:#c3cfd0;
+  color:black;
+}
+.card-img-top{
+    width: 100%;
+    height: 300px;
+    border: 2px solid #c3cfd0;
+}
+.card{
+  background-color: grey;
+  color:black;
+  text-align: center;
+  height: 500px;
+  margin-bottom: 5rem;
+}
+.atm{
+   text-decoration: underline dotted black;
+  font-weight: 900;
+
+}
+.hvr-underline-reveal{
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  background-color: inherit;
+}
+.f{
+  background-color: blue;
+  color:black;
+}
